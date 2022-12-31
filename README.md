@@ -15,14 +15,14 @@ Ints are read like so
 Lets call the binary representation x.
 Lets say its 1010.
 The calculation is adding all the results of the following calculation:
-2^(n-1)/*V
+2^(n-1)•V
 We assume the n begins as 1 here.
 V is value, the value of 1 or 0.
 Now lets calculate.
-2^0/*0=0
-2^1/*1=2
-2^2*0=0
-2^3*1=8
+2^0•0=0
+2^1•1=2
+2^2•0=0
+2^3•1=8
 0+2+0+8=10
 So 1010 is 10.
 You can play with it, but now we know what an int is.
@@ -36,7 +36,7 @@ We count data sizes by 2^V.
 V is how much bits we have.
 So 8 bit is 256. From here the numbers get bigger.
 If we calculate it, we know that
-2^(x*2) = (2^x)^2
+2^(x•2) = (2^x)^2
 That means that if we have x bits,
 And want to know the size if it was twice as big,
 We can either power it by two, or multiply x by two in the calculation.
