@@ -15,12 +15,12 @@ Ints are read like so
 Lets call the binary representation x.
 Lets say its 1010.
 The calculation is adding all the results of the following calculation:
-2^(n-1)*V
+2^(n-1)/*V
 We assume the n begins as 1 here.
 V is value, the value of 1 or 0.
 Now lets calculate.
-2^0*0=0
-2^1*1=2
+2^0/*0=0
+2^1/*1=2
 2^2*0=0
 2^3*1=8
 0+2+0+8=10
