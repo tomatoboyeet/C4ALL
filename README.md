@@ -92,3 +92,6 @@ C2: functions and function nature
 
 Functions in mathematics are premade calculations.
 In c, functions are predefined actions we can call, with arguments.
+A function is called by:
+functionName(argument1,argument2...);
+Or can be called within 
